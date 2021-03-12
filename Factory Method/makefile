@@ -1,0 +1,4 @@
+all:
+	g++  
+clean:
+	rm .
