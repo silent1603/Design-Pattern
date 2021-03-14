@@ -1,7 +1,7 @@
 #ifndef TANK_H
 #define TANK_H
 #include "IVehicle.h"
-class Tank:IVehicle {
+class Tank:public IVehicle {
     public:
     Tank();
     ~Tank();

@@ -1,7 +1,7 @@
 #ifndef CAR_H
 #define CAR_H
 #include "IVehicle.h"
-class Car:IVehicle
+class Car: public IVehicle
 {
     public:
     Car();

@@ -1,7 +1,7 @@
 #ifndef FACTORYONLAND_H
 #define FACTORYONLAND_H
 #include "Factory.h"
-class FactoryOnLand:Factory{
+class FactoryOnLand:public Factory{
     public:
     FactoryOnLand();
     ~FactoryOnLand();

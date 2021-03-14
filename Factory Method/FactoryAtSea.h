@@ -1,7 +1,7 @@
 #ifndef FACTORYATSEA_H
 #define FACTORYATSEA_H
 #include "Factory.h"
-class FactoryAtSea:Factory{
+class FactoryAtSea:public Factory{
     public:
     FactoryAtSea();
     ~FactoryAtSea();

@@ -1,7 +1,7 @@
 #ifndef STEAMSHIP_H
 #define STEAMSHIP_H
 #include "IVehicle.h"
-class SteamShip:IVehicle {
+class SteamShip: public IVehicle {
     public:
     SteamShip();
     ~SteamShip();
