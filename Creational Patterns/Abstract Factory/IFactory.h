@@ -1,8 +1,8 @@
-#ifndef FACTORY_H
-#define FACTORY_H
-class Factory{
+#ifndef IFACTORY_H
+#define IFACTORY_H
+class IFactory{
     public:
-    virtual ~Factory();
+    virtual ~IFactory();
     virtual void createProduct() = 0;
     virtual void createPropertype() = 0;
 };

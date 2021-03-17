@@ -2,10 +2,20 @@
 
 std::string MacProduct::create() const
 {
-    return   "Mac Product";
+    return "Mac Product";
 }
 
-std::string MacProduct::apply(const Propertype& p) const {
+std::string MacProduct::apply(const IPropertype& p) const {
     const std::string tempPro = p.create();
-    return  "Propertype was apply from "+tempPro;
+    return "Propertype was apply from "+tempPro;
+}
+
+MacProduct::MacProduct()
+{
+
+}
+
+MacProduct::~MacProduct()
+{
+    
 }

@@ -6,9 +6,9 @@ class Factory{
     public:
     
     virtual ~Factory();
-    virtual IVehicle* getProduct(Vehicle) const = 0;
+    virtual IVehicle* getIProduct(Vehicle) const = 0;
 
-    std::string printProduct(Vehicle) const; 
+    std::string printIProduct(Vehicle) const; 
 
 };
 #endif 

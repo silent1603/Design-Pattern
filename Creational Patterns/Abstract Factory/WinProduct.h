@@ -1,9 +1,11 @@
 #ifndef WINPRODUCT_H
 #define WINPRODUCT_H
-#include "Product.h"
-class WinProduct:public Product{
+#include "IProduct.h"
+class WinProduct:public IProduct{
     public:
+    WinProduct();
+    ~WinProduct();
     std::string create() const override;
-    std::string apply(const Propertype& p) const override;
+    std::string apply(const IPropertype& p) const override;
 };
 #endif

@@ -1,10 +1,13 @@
 #ifndef WINFACTORY_H
 #define WINFACTORY_H
-#include "Factory.h"
+#include "IFactory.h"
 #include "WinProduct.h"
 #include "WinPropertype.h"
-class WinFactory: public Factory{
+#include <iostream>
+class WinFactory: public IFactory{
     public:
+    WinFactory();
+    ~WinFactory();
     void createProduct() override;
     void createPropertype() override;
 };

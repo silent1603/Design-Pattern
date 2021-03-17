@@ -1,8 +1,10 @@
 #ifndef MACPROPERTYPE_H
 #define MACPROPERTYPE_H
-#include "Propertype.h"
-class MacPropertype: public Propertype{
+#include "IPropertype.h"
+class MacPropertype: public IPropertype{
     public:
+    MacPropertype();
+    ~MacPropertype();
     std::string create() const override;
 };
 #endif

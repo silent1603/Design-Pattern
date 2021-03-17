@@ -6,11 +6,11 @@ Factory::~Factory()
 
 }
 
-std::string Factory::printProduct(Vehicle v) const
+std::string Factory::printIProduct(Vehicle v) const
 {
-    IVehicle* product = getProduct(v);
-    std::string result = product->getType();
-    std::cout << "Type of product is "<< result << '\n';
-    delete product;
+    IVehicle* IProduct = getIProduct(v);
+    std::string result = IProduct->getType();
+    std::cout << "Type of IProduct is "<< result << '\n';
+    delete IProduct;
     return result;
 }

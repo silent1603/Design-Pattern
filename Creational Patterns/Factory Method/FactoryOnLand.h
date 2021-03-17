@@ -5,6 +5,6 @@ class FactoryOnLand:public Factory{
     public:
     FactoryOnLand();
     ~FactoryOnLand();
-    IVehicle* getProduct(Vehicle) const override;
+    IVehicle* getIProduct(Vehicle) const override;
 };
 #endif

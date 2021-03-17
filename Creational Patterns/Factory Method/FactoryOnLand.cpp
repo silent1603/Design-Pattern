@@ -12,7 +12,7 @@ FactoryOnLand::~FactoryOnLand()
 
 }
 
-IVehicle* FactoryOnLand::getProduct(Vehicle v) const
+IVehicle* FactoryOnLand::getIProduct(Vehicle v) const
 {
     IVehicle* p = nullptr;
     switch (v)

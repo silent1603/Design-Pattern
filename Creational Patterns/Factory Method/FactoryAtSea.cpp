@@ -9,7 +9,7 @@ FactoryAtSea::~FactoryAtSea(){
 
 }
 
-IVehicle* FactoryAtSea::getProduct(Vehicle v) const {
+IVehicle* FactoryAtSea::getIProduct(Vehicle v) const {
     IVehicle* p = nullptr;
     switch (v)
     {

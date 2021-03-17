@@ -5,6 +5,6 @@ class FactoryAtSea:public Factory{
     public:
     FactoryAtSea();
     ~FactoryAtSea();
-    IVehicle* getProduct(Vehicle) const override;
+    IVehicle* getIProduct(Vehicle) const override;
 };
 #endif

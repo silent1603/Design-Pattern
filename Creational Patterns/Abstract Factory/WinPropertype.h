@@ -1,9 +1,11 @@
 #ifndef WINPROPERTYPE_H 
 #define WINPROPERTYPE_H
-#include "Propertype.h"
+#include "IPropertype.h"
 
-class WinPropertype:public Propertype{
+class WinPropertype:public IPropertype{
     public:
+    WinPropertype();
+    ~WinPropertype();
     std::string create() const override;
  
 };

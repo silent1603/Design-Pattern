@@ -2,14 +2,24 @@
 
 void MacFactory::createProduct()
 {
-    Product *p = new MacProduct();
+    IProduct *p = new MacProduct();
     std::cout << p->create() << '\n';
     delete p;
 }
 
 void MacFactory::createPropertype()
 {
-    Propertype *p = new MacPropertype();
-    std::cout << p->create();
+    IPropertype *p = new MacPropertype();
+    std::cout << p->create() << '\n';
     delete p;
+}
+
+MacFactory::MacFactory()
+{
+
+}
+
+MacFactory::~MacFactory()
+{
+    
 }

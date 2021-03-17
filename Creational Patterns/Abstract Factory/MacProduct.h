@@ -1,9 +1,11 @@
 #ifndef MACPRODUCT_H
 #define MACPRODUCT_H
-#include "Product.h"
-class MacProduct: public Product{
+#include "IProduct.h"
+class MacProduct: public IProduct{
     public:
+    MacProduct();
+    ~MacProduct();
     std::string create() const override;
-    std::string apply(const Propertype& p) const override;
+    std::string apply(const IPropertype& p) const override;
 };
 #endif
