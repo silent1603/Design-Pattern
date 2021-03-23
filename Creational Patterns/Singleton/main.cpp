@@ -1,5 +1,5 @@
 #include "main.h"
-#include "Singleton.h"
+
 
 void ThreadFoo(){
     // Following code emulates slow initialization.

@@ -1,0 +1,321 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-cygwin
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ 
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Sun Mar 21 16:20:19 2021
+
+# Variables
+
+ 
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk-15.0.1
+# environment
+USERPROFILE = C:\Users\Trung
+# environment
+VBOX_MSI_INSTALL_PATH = D:\VirtualBox\
+# environment
+ProgramW6432 = C:\Program Files
+# environment
+LOCALAPPDATA = C:\Users\Trung\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4b544d3f-519b-4af8-bcf8-7640cb6ff81c-sock
+# environment
+VSCODE_CWD = D:\C++\Design Pattern\Creational Patterns\Singleton
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 6
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4956_CRFRWTFKWSJWNJNZ
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+VK_SDK_PATH = C:\VulkanSDK\1.2.141.2
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# default
+.LOADED := 
+# environment
+TMP = /cygdrive/c/Users/Trung/AppData/Local/Temp
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# environment
+ChocolateyInstall = C:\ProgramData\chocolatey
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /cygdrive/d/C++/Design Pattern/Creational Patterns/Singleton
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+ 
+VSCODE_PID = 4956
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+ProgramFiles(x86) = C:\Program Files (x86)
+# environment
+NEKO_INSTPATH = C:\HaxeToolkit\neko
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+OneDrive = C:\Users\Administrator\OneDrive
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+HAXEPATH = C:\HaxeToolkit\haxe
+# default
+MAKE_HOST := x86_64-pc-cygwin
+# default
+SHELL := /bin/sh
+# environment
+HOMEPATH = \Users\Trung
+# default
+MAKECMDGOALS := all
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /cygdrive/c/Python39/Scripts:/cygdrive/c/Python39:/cygdrive/c/Program Files/Common Files/Oracle/Java/javapath:/cygdrive/c/VulkanSDK/1.2.141.2/Bin:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Windows/System32/OpenSSH:/cygdrive/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Program Files/dotnet:/cygdrive/c/Program Files/CMake/bin:/cygdrive/c/Program Files/Java/jdk-15.0.1/bin:/cygdrive/c/MinGW/bin:/cygdrive/c/ProgramData/chocolatey/bin:/cygdrive/c/Program Files/Git LFS:/cygdrive/c/HaxeToolkit/haxe:/cygdrive/c/HaxeToolkit/neko:/cygdrive/d/glslViewer/bin/x64/Release:/cygdrive/c/Program Files/nodejs:/usr/bin:/cygdrive/c/Program Files/Calibre2:/cygdrive/c/Users/Trung/AppData/Local/Programs/Python/Python37/Scripts:/cygdrive/c/Users/Trung/AppData/Local/Programs/Python/Python37:/cygdrive/c/Users/Trung/AppData/Local/Microsoft/WindowsApps:/cygdrive/d/Microsoft VS Code/bin:/cygdrive/c/Users/Trung/AppData/Local/GitHubDesktop/bin:/cygdrive/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2020.2.4/bin:/cygdrive/c/Users/Trung/.dotnet/tools:/cygdrive/c/Users/Trung/AppData/Roaming/npm:/cygdrive/c/Users/Trung/.dotnet/tools
+# environment
+COMPUTERNAME = DESKTOP-JHAV4O8
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+IntelliJ IDEA Community Edition = C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.4\bin;
+# environment
+LOGONSERVER = \\DESKTOP-JHAV4O8
+# environment
+asl.log = Destination=file
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = Trung
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+ChocolateyLastPathUpdate = 132523892316501648
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-JHAV4O8
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+GIT_LFS_PATH = C:\Program Files\Git LFS
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+!D: = d:\C++\Design Pattern\Creational Patterns\Singleton
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-JHAV4O8
+# environment
+ 
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# environment
+ProgramData = C:\ProgramData
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = C:\Users\Trung\AppData\Roaming\Code\CachedData\2b9aebd5354a3629c3aba0a5f5df49f43d6689f8
+# environment
+MOZ_PLUGIN_PATH = C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\
+# environment
+APPDATA = C:\Users\Trung\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+VULKAN_SDK = C:\VulkanSDK\1.2.141.2
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+DriverData = C:\Windows\System32\Drivers\DriverData
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/Trung
+# environment
+CommonProgramW6432 = C:\Program Files\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = /cygdrive/c/Users/Trung/AppData/Local/Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\39a8ed6b6e29d9c25650e5ba6dd31c68-1.54.3-main-sock
+# environment
+TERM = xterm-256color
+# environment
+DXSDK_DIR = C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+PROCESSOR_REVISION = 9e09
+# environment
+MEmu_Path = C:\Program Files (x86)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+# variable set hash-table stats:
+# Load=106/1024=10%, Rehash=0, Collisions=9/136=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 3660107984, inode 18577348462903717): 8 files, no impossibilities.
+
+# 8 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+ 
+#  recipe to execute (from 'makefile', line 4):
+	rm ./main
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'makefile', line 2):
+	g++ main.h main.cpp Singleton.h Singleton.cpp  -o main
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-03-21 16:20:03.8946742
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/17=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 13 / storage = 106 B / avg = 8 B
+# current buf: size = 8162 B / used = 106 B / count = 13 / avg = 8 B
+
+# strcache performance: lookups = 21 / hit rate = 38%
+# hash-table stats:
+ 
+# Load=13/8192=0%, Rehash=0, Collisions=0/21=0%
+# Finished Make data base on Sun Mar 21 16:20:19 2021
+
+ 

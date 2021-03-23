@@ -1,0 +1,6 @@
+make.exe --dry-run --keep-going --print-directory
+make: Entering directory '/cygdrive/d/C++/Design Pattern/Creational Patterns/Singleton'
+g++ main.h main.cpp Singleton.h Singleton.cpp  -o main
+ 
+make: Leaving directory '/cygdrive/d/C++/Design Pattern/Creational Patterns/Singleton'
+ 

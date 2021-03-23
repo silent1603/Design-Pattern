@@ -13,7 +13,7 @@ class Singleton{
     static std::mutex mutex;
     protected:
     std::string value;
-    Singleton(const std::string value);
+    Singleton(const std::string );
     ~Singleton();
 };
 #endif

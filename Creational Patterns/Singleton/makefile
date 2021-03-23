@@ -1,4 +1,4 @@
 all:
-	g++ main.cpp main.h Singleton.cpp Singleton.h -o main
+	g++ main.h main.cpp Singleton.h Singleton.cpp  -o main
 clean:
-	rm ./main.o
+	rm ./main
